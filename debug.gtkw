@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Dec  4 22:39:15 2025
+[*]
+[dumpfile] "/Users/tomahawkins/high-low-cpu/run/engine_0/trace.vcd"
+[dumpfile_mtime] "Thu Dec  4 22:13:21 2025"
+[dumpfile_size] 6063
+[savefile] "/Users/tomahawkins/high-low-cpu/debug.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 2242 -877
+*-3.992101 10 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] highLowCpuVerify.
+[treeopen] highLowCpuVerify.cpu1.
+[treeopen] highLowCpuVerify.cpu2.
+[sst_width] 253
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@28
+highLowCpuVerify.clk
+highLowCpuVerify.reset
+@2028
+^1 /Users/tomahawkins/high-low-cpu/opcode.enums
+highLowCpuVerify.instr.opcode[2:0]
+^2 /Users/tomahawkins/high-low-cpu/reg.enums
+highLowCpuVerify.instr.src1[2:0]
+^2 /Users/tomahawkins/high-low-cpu/reg.enums
+highLowCpuVerify.instr.src2[2:0]
+^2 /Users/tomahawkins/high-low-cpu/reg.enums
+highLowCpuVerify.instr.dst[2:0]
+@28
+highLowCpuVerify.high1_i
+highLowCpuVerify.high2_i
+highLowCpuVerify.low_i
+highLowCpuVerify.low1_o
+highLowCpuVerify.low2_o
+[pattern_trace] 1
+[pattern_trace] 0
