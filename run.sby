@@ -1,0 +1,19 @@
+[options]
+#mode bmc
+mode prove
+
+[engines]
+smtbmc
+
+[files]
+highLowCpuPkg.sv
+highLowCpu.sv
+highLowCpuVerify.sv
+
+[script]
+verific -sv highLowCpuPkg.sv
+verific -sv highLowCpu.sv
+verific -sv highLowCpuVerify.sv
+prep -top highLowCpuVerify
+
+

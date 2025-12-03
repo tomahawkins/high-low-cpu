@@ -1,0 +1,14 @@
+[options]
+#mode bmc
+mode prove
+
+[engines]
+smtbmc
+
+[files]
+arbiter.sv
+
+[script]
+verific -sv arbiter.sv
+prep -top arbiter
+
